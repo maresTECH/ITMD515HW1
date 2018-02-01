@@ -16,7 +16,6 @@ public class server {
 		count++;
 		Scanner scan1 = new Scanner(sock1.getInputStream());
 		
-		
 		myOp = scan1.nextInt();
 		myNumber1 = scan1.nextInt();
 		myNumber2 = scan1.nextInt();
